@@ -2,7 +2,7 @@
   <tiles>
 <tile name="Assets/Cube" symmetry="X" weight="1.0"/>
 	</tiles>
-<neighbors>  <neighbor left="Assets/Cube 0" right="Assets/Cube 0"/>
-  <neighbor left="Assets/Cube 1" right="Assets/Cube 1"/>
+<neighbors>  <neighbor left="Assets/Cube 1" right="Assets/Cube 1"/>
+  <neighbor left="Assets/Cube 0" right="Assets/Cube 0"/>
 	</neighbors>
 </set>
