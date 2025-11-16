@@ -1,8 +1,28 @@
 <set>
   <tiles>
-<tile name="Assets/Cube" symmetry="X" weight="1.0"/>
+<tile name="Assets/Emilulz_Assets/DEMOLowPolyFlowers/Assets/Dandelion" symmetry="X" weight="1.0"/>
+<tile name="Assets/Emilulz_Assets/DEMOLowPolyFlowers/Assets/Roses" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Tree" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Bush" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Blue Flower" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Flower" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Grass" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Mushroom" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Tree2" symmetry="X" weight="1.0"/>
+<tile name="Assets/prefabs/Rock" symmetry="X" weight="1.0"/>
 	</tiles>
-<neighbors>  <neighbor left="Assets/Cube 1" right="Assets/Cube 1"/>
-  <neighbor left="Assets/Cube 0" right="Assets/Cube 0"/>
+<neighbors>  <neighbor left="Assets/prefabs/Flower 0" right="Assets/prefabs/Grass 0"/>
+  <neighbor left="Assets/prefabs/Flower 1" right="Assets/prefabs/Blue Flower 1"/>
+  <neighbor left="Assets/prefabs/Grass 0" right="Assets/prefabs/Tree 0"/>
+  <neighbor left="Assets/prefabs/Grass 1" right="Assets/prefabs/Grass 1"/>
+  <neighbor left="Assets/prefabs/Blue Flower 0" right="Assets/prefabs/Grass 0"/>
+  <neighbor left="Assets/prefabs/Blue Flower 1" right="Assets/prefabs/Blue Flower 1"/>
+  <neighbor left="Assets/prefabs/Grass 1" right="Assets/Emilulz_Assets/DEMOLowPolyFlowers/Assets/Roses 1"/>
+  <neighbor left="Assets/prefabs/Blue Flower 0" right="Assets/Emilulz_Assets/DEMOLowPolyFlowers/Assets/Roses 0"/>
+  <neighbor left="Assets/prefabs/Blue Flower 1" right="Assets/prefabs/Tree2 1"/>
+  <neighbor left="Assets/prefabs/Tree2 1" right="Assets/prefabs/Bush 1"/>
+  <neighbor left="Assets/prefabs/Tree 1" right="Assets/prefabs/Grass 1"/>
+  <neighbor left="Assets/prefabs/Bush 0" right="Assets/prefabs/Rock 0"/>
+  <neighbor left="Assets/prefabs/Grass 0" right="Assets/prefabs/Grass 0"/>
 	</neighbors>
 </set>
